@@ -1,4 +1,10 @@
 /* ===== Style resets ===== */
+
+:root {
+  --link-color: #4670ad;
+  --link-color-hover: #7646ad;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +22,31 @@ h4 {
   padding: 0;
   margin: 0;
 }
+
+a:link {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* ===== Style resets ===== */
 .App {
   height: 100vh;
