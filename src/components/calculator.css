@@ -20,3 +20,7 @@
   padding: 0 1rem;
   text-align: right;
 }
+
+.wide-button {
+  grid-column: 1 / 3;
+}
