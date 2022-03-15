@@ -36,7 +36,7 @@ export default class Calculator extends React.Component {
           className="wide-button"
         />
         <Button position="main" text="." />
-        <Button position="main" text="=" />
+        <Button position="aside" text="=" />
       </div>
     );
   }

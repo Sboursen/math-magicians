@@ -14,7 +14,7 @@ export default class Button extends React.Component {
     return (
       <button
         type="button"
-        className={`${this.type} ${this.className}`}
+        className={`${this.position} ${this.className}`}
       >
         {this.text}
       </button>
