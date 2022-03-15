@@ -12,7 +12,7 @@
 ## Milestones
 
 - [x] Milestone 1: **Project setup**
-- [ ] Milestone 2: **Components**
+- [x] Milestone 2: **Components**
 - [ ] Milestone 3: **Events**
 - [ ] Milestone 4: **Full website**
 - [ ] Milestone 5: **Tests**
