@@ -1,0 +1,48 @@
+/* ===== Style resets ===== */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+/* ===== Style resets ===== */
+
+.App-header {
+  height: 48px;
+  width: 100%;
+  padding: 12px 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-logo {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.App-logo-img {
+  height: 100%;
+}
+
+.App-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
