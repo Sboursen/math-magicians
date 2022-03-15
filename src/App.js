@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CalculatorBody from './components/calculatorBody';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </li>
         </ul>
       </header>
+      <CalculatorBody />
     </div>
   );
 }

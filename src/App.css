@@ -17,6 +17,10 @@ h4 {
   margin: 0;
 }
 /* ===== Style resets ===== */
+.App {
+  height: 100vh;
+  width: 100%;
+}
 
 .App-header {
   height: 48px;

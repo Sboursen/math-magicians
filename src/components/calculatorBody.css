@@ -1,0 +1,12 @@
+.Calculator-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 48px;
+}
+
+.Calculator-body-left {
+  width: fit-content;
+}
