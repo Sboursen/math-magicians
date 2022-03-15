@@ -1,5 +1,22 @@
-.Calculator-wrap {
+.calculator-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 2px;
+  background-color: #c9c9c9;
   height: 70%;
   width: 60%;
   border: 2px solid gray;
+}
+
+#res {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background-color: #868493;
+  border-style: none;
+  border: 2px solid #c9c9c9;
+  color: white;
+  font-size: 2rem;
+  padding: 0 1rem;
+  text-align: right;
 }
