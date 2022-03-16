@@ -14,12 +14,12 @@ export default class Calculator extends React.Component {
   }
 
   handleClick(buttonName) {
-    const { obj } = this.state;
-    const newObj = {
-      ...obj,
-      ...calculate(obj, buttonName),
-    };
-    this.setState({ obj: newObj });
+    this.setState((state) => ({
+      obj: {
+        ...state.obj,
+        ...calculate(state.obj, buttonName),
+      },
+    }));
   }
 
   render() {
