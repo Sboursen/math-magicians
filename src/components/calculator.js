@@ -27,7 +27,7 @@ export default class Calculator extends React.Component {
     const res = obj.next ? obj.next : obj.total;
     return (
       <div className="calculator-wrap">
-        <div id="res">{Number(res)}</div>
+        <div id="res">{res}</div>
         <Button
           position="main"
           text="AC"
