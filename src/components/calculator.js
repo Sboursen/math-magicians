@@ -24,7 +24,7 @@ export default class Calculator extends React.Component {
 
   render() {
     const { obj } = this.state;
-    const res = obj.total || obj.next;
+    const res = obj.next ? obj.next : obj.total;
     return (
       <div className="calculator-wrap">
         <div id="res">{res}</div>
