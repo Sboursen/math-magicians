@@ -69,6 +69,7 @@ a:active {
   flex-direction: row;
   gap: 12px;
   align-items: center;
+  min-width: 271px;
 }
 
 .App-logo-img {

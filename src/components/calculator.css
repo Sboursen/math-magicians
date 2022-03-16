@@ -23,6 +23,7 @@
   align-items: center;
   text-align: right;
   overflow-x: auto;
+  max-width: 100%;
 }
 
 .wide-button {
