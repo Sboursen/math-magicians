@@ -20,7 +20,7 @@
 
 ## sneak peek
 
-![Application screenshot](./docs/project-setup.gif)
+![Application screenshot](./docs/math-magicians.gif)
 
 ## Getting Started
 
