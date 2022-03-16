@@ -13,14 +13,14 @@
 
 - [x] Milestone 1: **Project setup**
 - [x] Milestone 2: **Components**
-- [ ] Milestone 3: **Events**
+- [x] Milestone 3: **Events**
 - [ ] Milestone 4: **Full website**
 - [ ] Milestone 5: **Tests**
 - [ ] Milestone 6: **Deploy**
 
 ## sneak peek
 
-![Application screenshot](./docs/project-setup.gif)
+![Application screenshot](./docs/math-magicians.gif)
 
 ## Getting Started
 

@@ -18,7 +18,12 @@
   color: white;
   font-size: 2rem;
   padding: 0 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   text-align: right;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 .wide-button {
