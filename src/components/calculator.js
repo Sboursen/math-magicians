@@ -13,7 +13,19 @@ export default function Calculator() {
   useEffect(() => {
     const resElement = document.getElementById('res');
     const { total, next } = calculatorData;
-    resElement.textContent = next || total;
+    let res;
+
+    if (
+      Number.isNaN(next || total)
+      || (next || total) === null
+    ) {
+      res = next || total;
+    } else if (`${next || total}`.length > 15) {
+      res = Number(next || total).toPrecision(15);
+    } else {
+      res = next || total;
+    }
+    resElement.textContent = res;
   });
 
   const handleClick = (buttonName) => {
