@@ -13,19 +13,12 @@ export default function Calculator() {
   useEffect(() => {
     const resElement = document.getElementById('res');
     const { total, next } = calculatorData;
-    let res;
+    const res = next || total;
+    console.log(Number.isNaN(Number(res)));
 
-    if (
-      Number.isNaN(next || total)
-      || (next || total) === null
-    ) {
-      res = next || total;
-    } else if (`${next || total}`.length > 15) {
-      res = Number(next || total).toPrecision(15);
-    } else {
-      res = next || total;
-    }
-    resElement.textContent = res;
+    resElement.textContent = Number.isNaN(Number(res)) || !res
+      ? res
+      : res.slice(0, 15);
   });
 
   const handleClick = (buttonName) => {
