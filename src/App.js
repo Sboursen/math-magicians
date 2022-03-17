@@ -1,10 +1,9 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import CalculatorBody from './components/calculatorBody';
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <div className="App">

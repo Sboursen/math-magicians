@@ -16,7 +16,7 @@ export default class Button extends React.Component {
       <button
         type="button"
         className={`${this.position} ${this.className}`}
-        onClick={() => this.onButtonClick(this.text)}
+        onClick={(e) => this.onButtonClick(e.target.textContent)}
       >
         {this.text}
       </button>
