@@ -14,7 +14,6 @@ export default function Calculator() {
     const resElement = document.getElementById('res');
     const { total, next } = calculatorData;
     const res = next || total;
-    console.log(Number.isNaN(Number(res)));
 
     resElement.textContent = Number.isNaN(Number(res)) || !res
       ? res
