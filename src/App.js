@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import CalculatorBody from './components/calculatorBody';
 
 export default function App() {

@@ -20,9 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint ./src/**/*.js",
-    "lint:css": "stylelint ./src/**/*.{css,scss}",
+    "lint:scss": "stylelint ./src/**/*.scss",
     "lintFix:js": "eslint ./src/**/*.js --fix",
-    "lintFix:css": "stylelint ./src/**/*.{css,scss} --fix"
+    "lintFix:scss": "stylelint ./src/**/*.scss --fix"
   },
   "eslintConfig": {
     "extends": [

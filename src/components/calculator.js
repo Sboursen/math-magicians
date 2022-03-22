@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Button from './button';
-import './calculator.css';
+import './calculator.scss';
 import calculate from '../logic/calculate';
 
 export default function Calculator() {

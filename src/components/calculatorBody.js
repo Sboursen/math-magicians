@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Calculator from './calculator';
-import './calculatorBody.css';
+import './calculatorBody.scss';
 
 export default class CalculatorBody extends React.Component {
   render() {
