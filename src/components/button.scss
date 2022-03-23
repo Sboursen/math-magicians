@@ -24,15 +24,21 @@ button {
   width: 72px;
   height: 72px;
   font-size: 24px;
+  font-weight: 700;
   border-radius: 24px;
-  background: linear-gradient(145deg, #cfcfcf, #f6f6f6);
-  box-shadow: 9px 9px 23px #cacaca, -9px -9px 23px #ffffff;
+  background: #e0e0e0;
+  box-shadow: 9px 9px 28px #c5c5c5, -9px -9px 28px #fbfbfb;
 }
 
 button.main {
-  background-color: #e0e0e0;
+  color: #0b1121;
 }
 
 button.aside {
-  background-color: #f99030;
+  color: #f99030;
+}
+button:active {
+  background: #e0e0e0;
+  box-shadow: inset 10px 10px 20px #aaaaaa,
+    inset -10px -10px 20px #ffffff;
 }

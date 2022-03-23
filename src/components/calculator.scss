@@ -19,18 +19,18 @@
   grid-row: 1 / 2;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
-  background: #e6e6e6;
-  box-shadow: inset 9px 9px 7px #b3b3b3,
-    inset -9px -9px 7px #ffffff;
-  color: white;
+  max-width: 100%;
+  color: #0b1121;
   font-size: 2rem;
   padding: 0 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   text-align: right;
-  max-width: 100%;
+  border-radius: 25px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #cacaca,
+    inset -5px -5px 10px #f6f6f6;
 }
 
 .wide-button {

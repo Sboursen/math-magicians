@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
   align-items: center;
   margin: 48px;
@@ -15,4 +15,30 @@
   position: relative;
   top: 15%;
   width: fit-content;
+}
+
+section {
+  height: 70vh;
+  width: 60%;
+}
+
+label {
+  height: 100%;
+  width: 100%;
+}
+
+textarea.notebook {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 48px;
+  font-weight: 700;
+  width: 100%;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+  resize: vertical;
+  font-size: 11px;
+  line-height: 24px;
+  border-bottom: 2px solid;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: url(../../public/design/notebook.png);
 }
