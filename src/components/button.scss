@@ -2,10 +2,7 @@ button {
   border: none;
   margin: 0;
   padding: 0;
-  width: auto;
   overflow: visible;
-
-  background: transparent;
 
   /* inherit font & color from ancestor */
   color: inherit;
@@ -20,7 +17,6 @@ button {
 
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
-
   width: 72px;
   height: 72px;
   font-size: 24px;
@@ -37,8 +33,10 @@ button.main {
 button.aside {
   color: #f99030;
 }
+
 button:active {
   background: #e0e0e0;
-  box-shadow: inset 10px 10px 20px #aaaaaa,
-    inset -10px -10px 20px #ffffff;
+  box-shadow:
+    inset 10px 10px 20px #aaa,
+    inset -10px -10px 20px #fff;
 }

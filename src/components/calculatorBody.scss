@@ -31,12 +31,11 @@ label {
   resize: vertical;
   line-height: 32px;
   -webkit-appearance: none;
-  border-radius: 0;
   background-image: url(../../public/design/notebook.png);
   background-repeat: repeat;
   border-radius: 24px;
   border-style: ridge;
   border: 5px solid #cacaca;
-  box-shadow: 5px 5px 10px #aaaaaa, -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px #aaa, -5px -5px 10px #fff;
   font-family: 'Patrick Hand', cursive;
 }
