@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Button from './button';
+import Button from '../button/button';
 import './calculator.scss';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
 export default function Calculator() {
   const [calculatorData, setCalculatorData] = useState({
