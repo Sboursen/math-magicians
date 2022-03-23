@@ -1,4 +1,5 @@
 import React from 'react';
+import './quotes.scss';
 
 export default function Quotes() {
   return (
