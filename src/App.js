@@ -20,9 +20,7 @@ export default function App() {
         </h1>
         <nav className="App-navigation">
           <Link to="/">Home</Link>
-          |
           <Link to="/calculator">Calculator</Link>
-          |
           <Link to="/quotes">Quotes</Link>
         </nav>
       </header>

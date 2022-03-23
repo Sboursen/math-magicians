@@ -49,16 +49,22 @@ a:active {
 
 /* ===== Style resets ===== */
 .App {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 12px;
 }
 
 .App-header {
-  height: 48px;
+  height: 64px;
   width: 100%;
   padding: 12px 48px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
   justify-content: space-between;
   align-items: center;
 }
@@ -70,6 +76,10 @@ a:active {
   gap: 12px;
   align-items: center;
   min-width: 271px;
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 9px 9px 18px #a1a1a1, -9px -9px 18px #ffffff;
 }
 
 .App-logo-img {
@@ -81,4 +91,13 @@ a:active {
   flex-direction: row;
   gap: 12px;
   align-items: center;
+}
+
+.App-navigation > * {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 9px 9px 18px #a1a1a1, -9px -9px 18px #ffffff;
 }
