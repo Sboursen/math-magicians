@@ -24,6 +24,16 @@ ReactDOM.render(
           <Route path="quotes" element={<Quotes />} />
           <Route path="/" element={<Home />} />
         </Route>
+        <Route
+          path="*"
+          element={
+            (
+              <main style={{ padding: '1rem' }}>
+                <p>Not found</p>
+              </main>
+            )
+          }
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
