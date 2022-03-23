@@ -32,7 +32,7 @@ export default function Calculator() {
 
   return (
     <div className="calculator-wrap">
-      <div id="res">Hello</div>
+      <div id="res" data-testid="result element" />
       <Button
         position="main"
         text="AC"
