@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 48px;
+  min-height: calc(100vh - 3 * 48px);
+  width: calc(100% - 2 * 48px);
+}
+
+.quote {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+  padding: 24px 48px;
+  border-radius: 24px;
+  background: #e0e0e0;
+  box-shadow: 9px 9px 18px #a1a1a1, -9px -9px 18px #fff;
+}

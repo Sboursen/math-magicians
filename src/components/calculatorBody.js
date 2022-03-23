@@ -1,15 +1,24 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Calculator from './calculator';
-import './calculatorBody.css';
+import './calculatorBody.scss';
 
 export default class CalculatorBody extends React.Component {
   render() {
     return (
       <main className="Calculator-body">
-        <h2 className="Calculator-body-left">
-          Let&rsquo;s do some math
-        </h2>
+        <section className="notebook">
+          <label htmlFor="notebook">
+            <textarea
+              className="notebook"
+              name="notebook"
+              id="notebook"
+              cols="30"
+              rows="10"
+              placeholder={"Let's do some math"}
+            />
+          </label>
+        </section>
         <Calculator />
       </main>
     );

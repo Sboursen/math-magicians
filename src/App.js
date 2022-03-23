@@ -1,7 +1,10 @@
 import React from 'react';
+import {
+  Link,
+  Outlet,
+} from 'react-router-dom';
 import logo from './logo.svg';
-import './App.css';
-import CalculatorBody from './components/calculatorBody';
+import './App.scss';
 
 export default function App() {
   return (
@@ -15,21 +18,14 @@ export default function App() {
           />
           <span>Math Magicians</span>
         </h1>
-        <ul className="App-navigation">
-          <li>
-            <a href="./">Home</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="./">Calculator</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="./">Quotes</a>
-          </li>
-        </ul>
+        <nav className="App-navigation">
+          <Link to="/">Home</Link>
+          <Link to="/calculator">Calculator</Link>
+          <Link to="/quotes">Quotes</Link>
+        </nav>
       </header>
-      <CalculatorBody />
+      <Outlet />
+
     </div>
   );
 }
