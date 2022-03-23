@@ -26,11 +26,13 @@ ReactDOM.render(
         </Route>
         <Route
           path="*"
-          element={(
-            <main style={{ padding: '1rem' }}>
-              <p>Not found</p>
-            </main>
-          )}
+          element={
+            (
+              <main style={{ padding: '1rem' }}>
+                <p>Not found</p>
+              </main>
+            )
+          }
         />
       </Routes>
     </BrowserRouter>

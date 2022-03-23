@@ -8,7 +8,6 @@ export default class CalculatorBody extends React.Component {
     return (
       <main className="Calculator-body">
         <section className="notebook">
-          <div className="header" />
           <label htmlFor="notebook">
             <textarea
               className="notebook"
