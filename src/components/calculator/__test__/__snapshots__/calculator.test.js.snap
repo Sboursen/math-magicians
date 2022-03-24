@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+<div
+  className="calculator-wrap"
+>
+  <div
+    data-testid="result element"
+    id="res"
+  />
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="aside "
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="aside "
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="aside "
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="aside "
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="main wide-button"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="main "
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="aside "
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;

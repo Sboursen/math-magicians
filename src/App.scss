@@ -1,0 +1,103 @@
+/* ===== Style resets ===== */
+
+:root {
+  --link-color: #4670ad;
+  --link-color-hover: #7646ad;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* ===== Style resets ===== */
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 12px;
+}
+
+.App-header {
+  height: 64px;
+  width: 100%;
+  padding: 12px 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-logo {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  min-width: 271px;
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 9px 9px 18px #a1a1a1, -9px -9px 18px #fff;
+}
+
+.App-logo-img {
+  height: 100%;
+}
+
+.App-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.App-navigation > * {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 9px 9px 18px #a1a1a1, -9px -9px 18px #fff;
+}
