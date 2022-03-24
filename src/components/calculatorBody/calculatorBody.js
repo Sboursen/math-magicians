@@ -1,13 +1,13 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Calculator from './calculator';
+import Calculator from '../calculator/calculator';
 import './calculatorBody.scss';
 
 export default class CalculatorBody extends React.Component {
   render() {
     return (
       <main className="Calculator-body">
-        <section className="notebook">
+        <section className="notebook" data-testid="note_book">
           <label htmlFor="notebook">
             <textarea
               className="notebook"

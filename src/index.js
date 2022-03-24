@@ -8,9 +8,9 @@ import {
 import reportWebVitals from './reportWebVitals';
 import './index.scss';
 import App from './App';
-import CalculatorBody from './components/calculatorBody';
-import Home from './routes/home';
-import Quotes from './routes/quotes';
+import CalculatorBody from './components/calculatorBody/calculatorBody';
+import Home from './routes/home/home';
+import Quotes from './routes/quotes/quotes';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,13 +26,11 @@ ReactDOM.render(
         </Route>
         <Route
           path="*"
-          element={
-            (
-              <main style={{ padding: '1rem' }}>
-                <p>Not found</p>
-              </main>
-            )
-          }
+          element={(
+            <main style={{ padding: '1rem' }}>
+              <p>Not found</p>
+            </main>
+          )}
         />
       </Routes>
     </BrowserRouter>

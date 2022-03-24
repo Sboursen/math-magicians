@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  Link,
-  Outlet,
-} from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.scss';
 
@@ -25,7 +22,6 @@ export default function App() {
         </nav>
       </header>
       <Outlet />
-
     </div>
   );
 }
