@@ -14,9 +14,9 @@
 - [x] Milestone 1: **Project setup**
 - [x] Milestone 2: **Components**
 - [x] Milestone 3: **Events**
-- [ ] Milestone 4: **Full website**
-- [ ] Milestone 5: **Tests**
-- [ ] Milestone 6: **Deploy**
+- [x] Milestone 4: **Full website**
+- [x] Milestone 5: **Tests**
+- [x] Milestone 6: **Deploy**
 
 ## sneak peek
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 #### Use the live Website
 
-[Math Magicians Website](https://github.com/Sboursen/math-magicians) _Coming Soon_
+[Math Magicians Website (Netlify)](https://deploy-preview-7--monumental-caramel-f6ef58.netlify.app/)
 
 ### **Option 2**
 
@@ -42,6 +42,11 @@ To get a local copy up and running follow these simple example steps.
 - Run `npm install` to install the _dependencies_
 - Run `npm start` to run the live server.
 
+#### (Optional) Run tests
+
+- Stop the server if it's already running `CTRL` + `C`
+- Run `npm test` run the tests
+
 ## About me
 
 👤 **Soufiane Boursen**
@@ -51,6 +56,12 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [@sboursen](https://linkedin.com/in/sboursen)
 
 ## Contributors
+
+> A huge thanks to these people for collaborating with me on the project:
+
+👤 **Souad**
+
+- GitHub: [@souad988](https://github.com/souad988)
 
 Contributions, issues, and feature requests are welcome!
 
