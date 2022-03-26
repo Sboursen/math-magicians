@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 #### Use the live Website
 
-[Math Magicians Website (Netlify)](https://deploy-preview-7--monumental-caramel-f6ef58.netlify.app/)
+[Math Magicians Website (Netlify)](https://sboursen-math-magicians.netlify.app/)
 
 [Math Magicians Website (Heroku)](https://aqueous-woodland-09440.herokuapp.com/)
 
