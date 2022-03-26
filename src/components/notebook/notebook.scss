@@ -1,0 +1,74 @@
+$grid-spacing: 1px;
+$grid-spacing-sm: 0.5px;
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  justify-content: stretch;
+  height: 520px;
+  min-width: 60%;
+  padding: 12px;
+  border-radius: 24px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #c7c7c7, -5px -5px 10px #f9f9f9;
+}
+
+div.text {
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 5px 5px 10px #aaa, -5px -5px 10px #fff;
+}
+
+label {
+  height: 100%;
+  width: 100%;
+}
+
+#notebook {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 46px;
+  color: #0b1121;
+  font-weight: 300;
+  line-height: 60px;
+  resize: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  opacity: 0.7;
+  scroll-snap-type: block mandatory;
+  scroll-padding-top: 20px;
+  background-image: linear-gradient(
+      #4881c3 2.4px,
+      transparent 2.4px
+    ),
+    linear-gradient(
+      90deg,
+      #4881c3 $grid-spacing,
+      transparent $grid-spacing
+    ),
+    linear-gradient(
+      #4881c3 $grid-spacing-sm,
+      transparent $grid-spacing-sm
+    ),
+    linear-gradient(
+      90deg,
+      #4881c3 $grid-spacing-sm,
+      #ffffff $grid-spacing-sm
+    );
+  background-size: 60px 60px, 60px 60px, 12px 12px,
+    12px 12px;
+  background-position: -$grid-spacing -$grid-spacing,
+    -$grid-spacing -$grid-spacing,
+    -$grid-spacing-sm -$grid-spacing-sm,
+    -$grid-spacing-sm -$grid-spacing-sm;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow: inset 5px 5px 4px #ededed,
+    inset -5px -5px 4px #ffffff;
+  font-family: 'Patrick Hand', cursive;
+}

@@ -11,31 +11,3 @@
   width: calc(100% - 2 * 48px);
 }
 
-section {
-  height: 70vh;
-  min-width: 60%;
-}
-
-label {
-  height: 100%;
-  width: 100%;
-}
-
-#notebook {
-  height: 100%;
-  padding: 40px 40px 20px 100px;
-  font-size: 36px;
-  color: #0b1121;
-  font-weight: 300;
-  width: 100%;
-  resize: vertical;
-  line-height: 32px;
-  -webkit-appearance: none;
-  background-image: url(../../../public/images/notebook.png);
-  background-repeat: repeat;
-  border-radius: 24px;
-  border-style: ridge;
-  border: 5px solid #cacaca;
-  box-shadow: 5px 5px 10px #aaa, -5px -5px 10px #fff;
-  font-family: 'Patrick Hand', cursive;
-}
