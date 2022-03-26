@@ -39,11 +39,11 @@ label {
   line-height: 60px;
   resize: none;
   -webkit-appearance: none;
-  background-color: #ffffff;
   opacity: 0.7;
   scroll-snap-type: block mandatory;
   scroll-padding-top: 20px;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       #4881c3 2.4px,
       transparent 2.4px
     ),
@@ -59,19 +59,25 @@ label {
     linear-gradient(
       90deg,
       #4881c3 $grid-spacing-sm,
-      #ffffff $grid-spacing-sm
+      #fff $grid-spacing-sm
     );
-  background-size: 60px 60px, 60px 60px, 12px 12px,
+  background-size:
+    60px 60px,
+    60px 60px,
+    12px 12px,
     12px 12px;
-  background-position: -$grid-spacing -$grid-spacing,
+  background-position:
+    -$grid-spacing -$grid-spacing,
     -$grid-spacing -$grid-spacing,
     -$grid-spacing-sm -$grid-spacing-sm,
     -$grid-spacing-sm -$grid-spacing-sm;
   border-radius: 24px;
-  background-color: #ffffff;
-  box-shadow: inset 5px 5px 4px #ededed,
-    inset -5px -5px 4px #ffffff;
+  background-color: #fff;
+  box-shadow:
+    inset 5px 5px 4px #ededed,
+    inset -5px -5px 4px #fff;
   font-family: 'Patrick Hand', cursive;
-  cursor: url(https://cur.cursors-4u.net/symbols/images7/sym774.png),
+  cursor:
+    url(https://cur.cursors-4u.net/symbols/images7/sym774.png),
     default;
 }

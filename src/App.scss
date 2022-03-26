@@ -103,26 +103,16 @@ a:active {
   text-decoration: none;
 }
 
-.App-navigation > * {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 12px 24px;
-  border-radius: 24px;
-  border-radius: 25px;
-  background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow: 15px 15px 30px #bebebe,
-    -15px -15px 30px #ffffff;
-}
-
 .App-navigation > *:hover {
   border-radius: 25px;
   background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe,
-    -15px -15px 30px #ffffff;
+  box-shadow:
+    15px 15px 30px #bebebe,
+    -15px -15px 30px #fff;
 }
 
 .App-navigation > *:active {
   border-radius: 25px;
   background: #e0e0e0;
-  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fff;
 }
