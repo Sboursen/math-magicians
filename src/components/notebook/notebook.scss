@@ -16,8 +16,9 @@ section {
 }
 
 div.text {
-  font-size: 20px;
-  font-weight: 600;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
   box-shadow: 5px 5px 10px #aaa, -5px -5px 10px #fff;
 }
 
@@ -31,7 +32,7 @@ label {
   scroll-behavior: smooth;
   height: 100%;
   width: 100%;
-  padding: 20px 30px;
+  padding: 16px 30px;
   font-size: 46px;
   color: #0b1121;
   font-weight: 300;
