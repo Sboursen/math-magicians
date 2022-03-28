@@ -63,7 +63,6 @@ a:active {
   padding: 12px 48px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 24px;
   justify-content: space-between;
   align-items: center;
@@ -106,13 +105,39 @@ a:active {
 .App-navigation > *:hover {
   border-radius: 25px;
   background: #e0e0e0;
-  box-shadow:
-    15px 15px 30px #bebebe,
-    -15px -15px 30px #fff;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #fff;
 }
 
 .App-navigation > *:active {
   border-radius: 25px;
   background: #e0e0e0;
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .App-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App-logo-img {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    font-size: 12;
+  }
+  .App-logo {
+    font-size: 24px;
+  }
+
+  .App-navigation > * {
+    font-size: 16px;
+  }
 }
