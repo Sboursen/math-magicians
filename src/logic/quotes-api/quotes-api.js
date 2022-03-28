@@ -1,4 +1,4 @@
-const ENDPOINT = 'http://quotes.rest/qod.json';
+const ENDPOINT = 'https://quotes.rest/qod.json';
 
 const getQod = async () => {
   const response = await fetch(ENDPOINT, {
