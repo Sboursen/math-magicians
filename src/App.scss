@@ -130,15 +130,18 @@ a:active {
 }
 
 @media screen and (max-width: 420px) {
-  .App {
-    min-height: 100vh;
-  }
-
   .App-logo {
     font-size: 24px;
   }
 
   .App-navigation > * {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    height: auto;
+    min-height: 100vh;
   }
 }
