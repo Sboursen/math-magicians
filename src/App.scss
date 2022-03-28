@@ -49,7 +49,7 @@ a:active {
 
 /* ===== Style resets ===== */
 .App {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -130,8 +130,8 @@ a:active {
 }
 
 @media screen and (max-width: 420px) {
-  body {
-    font-size: 12;
+  .App {
+    min-height: 100vh;
   }
 
   .App-logo {
